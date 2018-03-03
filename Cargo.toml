@@ -1,0 +1,11 @@
+[package]
+name = "mish-linux"
+version = "0.1.0"
+
+[dependencies]
+projectasiago_mish = "0.1.0"
+projectasiago_feta = "0.1.0"
+
+[patch.crates-io]
+projectasiago_feta = { path = "../feta" }
+projectasiago_mish = { path = "../mish" }
