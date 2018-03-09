@@ -3,9 +3,5 @@ name = "mish-linux"
 version = "0.1.0"
 
 [dependencies]
-projectasiago_mish = "0.1.0"
-projectasiago_feta = "0.1.0"
-
-[patch.crates-io]
-projectasiago_feta = { path = "../feta" }
-projectasiago_mish = { path = "../mish" }
+projectasiago_mish = { git = "https://github.com/projectasiago/mish" }
+projectasiago_feta = { git = "https://github.com/projectasiago/feta" }
